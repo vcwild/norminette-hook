@@ -24,3 +24,9 @@ repos:
 ```
 
 When executing `pre-commit run` or `pre-commit run norminette-hook`, the hook will be executed.
+
+Now install the hook to be executed automatically for each commit.
+
+```bash
+pre-commit install --install-hooks --overwrite
+```
