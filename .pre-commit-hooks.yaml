@@ -3,7 +3,6 @@
     description: Runs norminette within pre-commit.
     entry: norminette-hook
     language: python
-    types: [python]
-    # for backward compatibility
-    files: ''
-    minimum_pre_commit_version: 0.15.0
+    types: [file]
+    files: \.(h|c)$
+    minimum_pre_commit_version: 2.9.0
