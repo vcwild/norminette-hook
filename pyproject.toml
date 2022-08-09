@@ -1,0 +1,43 @@
+[project]
+name = "norminette-hook"
+description = "The Norminette pre-commit hook for git"
+version = "0.1.0"
+authors = [
+    { name = "Victor Wildner", email = "vwildner@redhat.com" },
+]
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["pre-commit", "hook", "plugin"]
+url = "https://github.com/vcwild/norminette-hook"
+license = "MIT"
+license_file = "LICENSE"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Testing",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "norminette>=3.3.51",
+]
+
+[project.entry-points.console_scripts]
+norminette-hook = "norminette_hook:main"
+
+[build-system]
+requires = [
+    "hatchling>=1.4.1",
+    "hatch-vcs",
+]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+raw-options.version_scheme = "calver-by-date"
+source = "vcs"

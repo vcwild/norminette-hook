@@ -1,0 +1,9 @@
+-   id: norminette-hook
+    name: Norminette hook
+    description: Runs norminette within pre-commit.
+    entry: norminette-hook
+    language: python
+    types: [python]
+    # for backward compatibility
+    files: ''
+    minimum_pre_commit_version: 0.15.0
