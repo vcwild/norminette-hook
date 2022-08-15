@@ -1,12 +1,21 @@
+<div align="center">
+    <img src=".github/assets/hook.svg" width="200px" />
+    <div>
+        <img src="https://img.shields.io/github/v/release/vcwild/norminette-hook?include_prereleases&color=%23FBC86D&style=flat-square" alt="release">
+        <img src="https://img.shields.io/github/license/vcwild/norminette-hook?color=%23FBC86D&style=flat-square" alt="license" />
+        <img src="https://img.shields.io/github/repo-size/vcwild/norminette-hook?color=%23FBC86D&style=flat-square" alt="repo size" />
+    </div>
+</div>
+
 # Norminette Hook
 
 The Norminette pre-commit hook.
 
-## Requirements
+## 📝 Requirements
 
-- [Pre-commit](https://pre-commit.com/index.html) must be installed on the system or in the repository virtual environment.
+- [Pre-commit](https://pre-commit.com/index.html) must be installed system-wide or in a virtual environment.
 
-## Usage
+## 💿 Usage
 
 Create a `.pre-commit-config.yaml` file in the root of your repository.
 
@@ -23,10 +32,20 @@ repos:
     - id: norminette-hook
 ```
 
-When executing `pre-commit run` or `pre-commit run norminette-hook`, the hook will be executed.
+When executing `pre-commit run` or `pre-commit run norminette-hook`, the hook will be triggered.
 
-Now install the hook to be executed automatically for each commit.
+Now install the hook to execute it automatically for each commit.
 
 ```bash
 pre-commit install --install-hooks --overwrite
 ```
+
+You are now ready for some next level linting automation! 👨‍🚀🚀
+
+## 🤝 Contributing
+
+Fork the repository and create a pull request.
+
+## 🏷️ License
+
+The project is under the [MIT License](https://opensource.org/licenses/MIT). The software is provided as is, without warranty of any kind.
