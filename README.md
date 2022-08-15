@@ -27,7 +27,7 @@ default_language_version:
 
 repos:
   - repo: https://github.com/vcwild/norminette-hook
-    rev: v0.1.0
+    rev: v0.1.1
     hooks:
     - id: norminette-hook
 ```
