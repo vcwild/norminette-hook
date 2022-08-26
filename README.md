@@ -11,6 +11,14 @@
 
 The Norminette pre-commit hook.
 
+## ❓ About
+
+Git hooks are actions triggered whenever you do a commit.
+
+The **norminette-hook** will automatically trigger Norminette when you commit, and if you are off the norm it will display what needs to be fixed before you can record this commit to your git history.
+
+This ensures that every commit you do will follow the rules, and you don't have to run Norminette manually anymore.
+
 ## 📝 Requirements
 
 - [Pre-commit](https://pre-commit.com/index.html) must be installed system-wide or in a virtual environment.
