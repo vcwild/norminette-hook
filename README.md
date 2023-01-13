@@ -27,6 +27,8 @@ We realized that this is a better design, for you can write tests and other libr
 
 - [Pre-commit](https://pre-commit.com/index.html) must be installed system-wide or in a virtual environment.
 
+**NOTE**: Currently the plugin is only supported in UNIX-like environments (Linux, BSD, Mac).
+
 ## 💿 Usage
 
 Create a `.pre-commit-config.yaml` file in the root of your repository.
